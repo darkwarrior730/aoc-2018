@@ -1,7 +1,8 @@
 with open('input.txt', 'r') as f:
     data = f.read()
     arr = data.split()
-    arr2 = [0]
+    arr2 = set()
+    arr2.add(0)
     number = 0
     while True:
         for i in arr:
@@ -10,4 +11,4 @@ with open('input.txt', 'r') as f:
                 print(number)
                 quit()
             else:
-                arr2.append(number)
+                arr2.add(number)
