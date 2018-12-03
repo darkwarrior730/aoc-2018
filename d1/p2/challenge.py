@@ -1,4 +1,4 @@
-with open('input.txt', 'r') as f:
+with open('values.txt', 'r') as f:
     data = f.read()
     arr = data.split()
     arr2 = set()
